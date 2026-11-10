@@ -1,0 +1,1 @@
+Place R50+ViT-B_16.npz in this directory. See README.md (section 'Pretrained weights').

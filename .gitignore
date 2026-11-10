@@ -1,0 +1,27 @@
+# Pretrained ViT weights (461 MB) and trained checkpoints (136-780 MB):
+# both exceed GitHub's 100 MB per-file limit. See README.md section 5.
+*.npz
+*.pth
+*.pt
+
+# Microscopy data and generated outputs
+*.czi
+*.tif
+*.tiff
+data_fibrillarin_3d/
+data_fibrillarin/
+results_fibrillarin_3d/
+results_fibrillarin/
+checkpoints_fibrillarin_3d/
+checkpoints_fibrillarin/
+
+# Logs
+*.log
+log.txt
+loss_log.txt
+web/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
